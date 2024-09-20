@@ -1,0 +1,11 @@
+npm run lint ::: nos muestra si dejamos un console.log dentro de nuestro proyecto, una variable si
+n usar o import sin usar.
+
+comandos para generar un modulo
+nest g module|mo nombreCarpeta
+para generar controller
+nest g controller|co nombreCarpeta
+
+De forma automatica me genera el archivo spec que es de testing
+para no añadir el spec
+nest g co nombreCarpeta --no-spec
